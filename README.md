@@ -37,17 +37,16 @@ Este proyecto implementa un sistema de gestión de identidades robusto utilizand
 1. **Clonar el repositorio:**
    ```bash
    git clone <url-del-repositorio>
-   cd <nombre-de-la-carpeta
+   cd api_segura
    ⚙️ Configuración e Instalación
 Clonar el repositorio:
 
-Bash
-git clone <url-del-repositorio>
-cd api_segura
+
 Instalar dependencias:
 
-Bash
+  ```bash
 pip install fastapi[all] sqlmodel bcrypt python-dotenv
+
 Configurar variables de entorno:
 Crea un archivo .env en la raíz con el siguiente contenido:
 
